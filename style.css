@@ -1,0 +1,330 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fefeff;
+}
+
+.navbar-1{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 66px;
+    width: 100%;
+}
+
+.navbar-1 .wrap-1{
+    display: flex;
+}
+.navbar-1 .wrap-2{
+    display: flex;
+}
+.navbar-1 .wrap-1 .nav-menu{
+    display: flex;
+}
+.navbar-1 .wrap-2 .nav-menu2{
+    display: flex;
+}
+.navbar-1 .wrap-2 .nav-menu3{
+    display: flex;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    margin-left: -10px;
+    margin-right: 15px;
+}
+
+ul{
+    list-style: none;
+    flex-direction: row;
+}
+
+.wrap-1 ul li{
+    margin-top: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    /* background-color: red; */
+    display: flex;align-items: center;
+    position: relative;
+    bottom: 10px;
+    height: 50px;
+}
+.wrap-2 ul li{
+    margin-bottom: 15px;
+    padding: 10px;
+    margin-right: 10px;
+    /* background-color: red; */
+    height: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+span{
+    color: rgb(190, 86, 255);
+}
+
+.wrap-1{
+    display: flex;
+    flex-direction: row;
+    /* position: relative;
+    bottom: 5px; */
+}
+
+.wrap-2{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 5px;
+    margin-right: 20px;
+}
+
+.navbar-1 .search{
+    margin: 10px;
+    /* background-color: red; */
+    height: 25px;
+    width: 135px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    position: relative;
+    /* bottom: 3px; */
+}
+
+input{
+    border: none;
+    width: 90px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.circle{
+    /* margin-top: 11px; */
+    margin-left: 10px;
+}
+
+.sign{
+    background-color: rgb(6, 164, 6);
+    height: 23px;
+    width: 80px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+}
+
+.nav-menu3 a{
+    display: inline-block;
+    margin-left: 10px;
+}
+.signup a{
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+}
+
+.signup{
+    background-color: rgb(77, 185, 77);
+    width: 90px;
+    height: 45px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu3:hover{
+    background-color: rgb(10, 183, 10);
+    color: white;
+}
+.nav-menu3:hover a{
+    color: white;
+}
+
+.nav-menu3{
+    display: flex;
+    width: 160px;
+    align-items: center;
+    background-color: rgba(6, 164, 6, 0.307);
+    height: 45px;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+.nav-menu{
+    /* background-color: aqua; */
+    height: 64px;
+    position: relative;
+    bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+.nav-menu li:hover{
+    background-color: rgb(10, 183, 10);
+    /* height: 50px; */
+    /* color: red; */
+    position: relative;
+}
+
+.nav-menu li:hover a{
+    color: white;
+}
+
+.nav-menu2 li:hover{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+
+main{
+    background-image: url(xtc.gif);
+    background-size: cover;
+    height: 500px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+main .MainKonten{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .MainKonten h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+main .MainKonten h4 {
+    color: #FFF4A3;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+main .MainKonten a{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    margin-top: 40px;
+    text-decoration: underline;
+    transition: ease-in-out 0.3s;
+}
+
+main .MainKonten a:hover{
+    color: #FFF4A3;
+
+}
+
+main .MainKonten input{
+    height: 37px;
+    width: 520px;
+    border-radius: 60px;
+    text-align: left;
+}
+
+.main .subKonten{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    align-items: center;
+}
+
+.main .subKonten .card{
+    margin: 20px;
+    background: salmon;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 550px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.main .subKonten .card h1{
+    margin-bottom: 0;
+    font-size: 38px;
+}
+
+.main .subKonten .card p{
+    margin-bottom: 40px;
+}
+
+.main .subKonten .card button{
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 30px;
+    background: #282A35;
+    color: white;
+    font-weight: 700;
+}
+
+.main .subKonten .card button:hover{
+    background: rgb(14, 13, 13);
+
+}
+footer {
+   background-color: rgb(37, 37, 43);
+   bottom: 0;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+ 
+footer .mainFooter {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #fff4a3;
+}
+ 
+footer .mainFooter h4 a {
+    color: inherit;
+    text-decoration: none;
+}
+ 
+footer .mainFooter img {
+    width: 60px;
+}
+ 
+footer .mainn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 70px;
+    font-size: 10px;
+    color: white;
+}
+ 
+footer .wrap {
+    /* background-color: white; */
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+ 
+footer .text {
+    color: white;
+    font-size: 10px;
+}
